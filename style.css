@@ -1,34 +1,38 @@
-/* Background color of your pages */
+
 body {
   background-color: #f7f2ff;
   font-family: Arial, sans-serif;
 }
 
-/* Text color for some part of the page */
+
 .note {
   color: #4a2c7a;
 }
 
-/* Border around an HTML element */
+
 #mainPhoto {
   border: 3px solid #333;
   padding: 6px;
 }
 
-/* Multiple selectors setting a single style */
+
 h1, h2 {
   text-decoration: underline;
 }
 
-/* Specify a field by id */
+
 #intro {
   color: #222;
   font-style: italic;
 }
 
-/* CSS attribute not discussed in class (simple + safe): border-radius */
+
 #priceBox {
   border: 2px dashed #4a2c7a;
   padding: 10px;
   border-radius: 10px;
+}
+#mainPhoto:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
